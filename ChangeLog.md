@@ -87,7 +87,9 @@
     * Now you can custom your own indicator view. 
 * 0.3.3
     * support `Carthage` 
-        
+
+* 0.7.1
+    * fork from HeathWang/HWPanModal
         
 
 

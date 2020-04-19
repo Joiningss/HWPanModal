@@ -421,10 +421,10 @@
             break;
         case UIGestureRecognizerStateCancelled:
         case UIGestureRecognizerStateEnded: {
-            if (percent > 0.5) {
+            if (percent > 0.2 && [recognizer velocityInView:recognizer.view].x > 0) {
                 [self finishInteractiveTransition];
             } else {
-                [self cancelInteractiveTransition];
+               [self cancelInteractiveTransition];
             }
 
         }
